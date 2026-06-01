@@ -56,7 +56,7 @@ active when connected to `GND`.
 
 Active-low button wiring:
 
-![Mouse64 connection schema](img/schema.jpg)
+![Mouse64 connection schema](img/schema.jpeg)
 
 ```text
 WEMOS S2 Mini                         Buttons / joystick switches
