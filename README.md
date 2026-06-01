@@ -1,6 +1,6 @@
 # 🖱️ Mouse64
 
-![Mouse64 banner](img/banner.png)
+![Mouse64 banner](img/banner.jpeg)
 
 Use a joystick or push buttons as a USB mouse on a modern computer, powered by a
 WEMOS LOLIN S2 Mini / ESP32-S2 board.
@@ -56,7 +56,7 @@ active when connected to `GND`.
 
 Active-low button wiring:
 
-![Mouse64 connection schema](img/schema.png)
+![Mouse64 connection schema](img/schema.jpg)
 
 ```text
 WEMOS S2 Mini                         Buttons / joystick switches
