@@ -117,6 +117,21 @@ source .venv/bin/activate
 pio run
 ```
 
+GitHub Actions builds every push, pull request, and manual run. Download the
+`mouse64-firmware` artifact to get `firmwares-mouse64.json` and a folder named
+`<version>_<board>` containing all four flash images. The version is a tag on
+the built commit, or `dev` when that commit has no tag. To make the files
+available to [DIY Flasher](https://valerio-vaccaro.github.io/diyflasher/),
+copy the JSON and its image folders into the flasher's web root, then add
+the JSON to the flasher's firmware catalog loader and interface. The image URLs
+are relative to the flasher page's root.
+
+You can create the same package locally after building with:
+
+```sh
+python3 scripts/package_firmware.py
+```
+
 Flash the WEMOS S2 Mini over USB-C:
 
 ```sh
